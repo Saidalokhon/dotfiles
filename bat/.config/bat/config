@@ -1,0 +1,14 @@
+# Set theme to Dracula
+--theme="Dracula"
+
+# Always use colored output
+--color=always
+
+# Always use decorations
+--decorations=always
+
+# Configure all additional elements to be displayed with the file contents
+--style=full
+
+# Always use pager
+--paging=always
