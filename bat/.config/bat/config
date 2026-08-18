@@ -12,3 +12,6 @@
 
 # Always use pager
 --paging=always
+
+# Use built-in pager
+--pager=builtin
