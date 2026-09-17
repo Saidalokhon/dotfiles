@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
-
-if ((EUID == 0)); then
-    echo "Do not run this script as root. It will use sudo when needed." >&2
-    exit 1
-fi
-
 if ! command -v yay &>/dev/null; then
     echo "yay is not installed. Installing yay-bin..."
 
