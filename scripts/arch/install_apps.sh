@@ -21,6 +21,8 @@ APPS=(
     1password
     kitty
     google-chrome
+    libreoffice-fresh
+    thunderbird
     # Terminal apps
     tmux
     yazi
@@ -39,7 +41,6 @@ APPS=(
     docker
     docker-compose
     networkmanager-openconnect
-    libreoffice-fresh
 )
 
 if ((${#APPS[@]})); then
