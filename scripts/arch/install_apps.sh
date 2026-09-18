@@ -17,14 +17,29 @@ if ! command -v yay &>/dev/null; then
 fi
 
 APPS=(
+    # GUI Apps
     1password
     kitty
     google-chrome
+    # Terminal apps
     tmux
     yazi
     openconnect
     neovim
     stow
+    tree
+    git
+    base-devel
+    curl
+    grep
+    fzf
+    bat
+    lazygit
+    man-db
+    docker
+    docker-compose
+    networkmanager-openconnect
+    libreoffice-fresh
 )
 
 if ((${#APPS[@]})); then
