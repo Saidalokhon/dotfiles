@@ -23,6 +23,7 @@ APPS=(
     google-chrome
     libreoffice-fresh
     thunderbird
+    freecad
     # Terminal apps
     tmux
     yazi
@@ -41,6 +42,9 @@ APPS=(
     docker
     docker-compose
     networkmanager-openconnect
+    ripgrep
+    fd
+    tree-sitter-cli
 )
 
 if ((${#APPS[@]})); then

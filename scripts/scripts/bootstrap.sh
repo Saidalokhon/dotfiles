@@ -15,9 +15,11 @@ fi
 case "$(uname -s)" in
 Linux)
     "$SCRIPT_DIR/arch/install_apps.sh"
+    #"$SCRIPT_DIR/arch/install_lazyvim.sh"
     ;;
 Darwin)
-    "$SCRIPT_DIR/macos/install_apps.sh"
+    #"$SCRIPT_DIR/macos/install_apps.sh"
+    #"$SCRIPT_DIR/macos/install_lazyvim.sh"
     ;;
 *)
     echo "Unsupported operating system: $(uname -s)" >&2
