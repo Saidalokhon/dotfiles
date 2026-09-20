@@ -7,6 +7,7 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias yay='yay --noconfirm'
 PS1='[\u@\h \W]\$ '
 
 # Helper functions

@@ -24,6 +24,7 @@ APPS=(
     libreoffice-fresh
     thunderbird
     freecad
+    localsend-bin
     # Terminal apps
     tmux
     yazi
