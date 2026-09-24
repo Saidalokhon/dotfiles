@@ -46,6 +46,12 @@ APPS=(
     ripgrep
     fd
     tree-sitter-cli
+    # Hyprland
+    hyprpolkitagent
+    hyprpaper
+    hyprlauncher
+    hyprlock
+    hyprpicker
 )
 
 if ((${#APPS[@]})); then

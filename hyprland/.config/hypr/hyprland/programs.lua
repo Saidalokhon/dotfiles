@@ -6,3 +6,5 @@
 Terminal    = "kitty"
 FileManager = "dolphin"
 Menu = "hyprlauncher"
+Lockscreen = "hyprlock"
+Colorpicker = "hyprpicker"
